@@ -1,0 +1,181 @@
+header{
+    background-color: #09224f;
+    height: 100px;
+}
+
+.reallyBadWithGoodNames{
+    -webkit-box-shadow: 0px 10px 10px 2px rgba(232,227,232,1);
+-moz-box-shadow: 0px 10px 10px 2px rgba(232,227,232,1);
+box-shadow: 0px 10px 10px 2px rgba(232,227,232,1);
+}
+
+.aboutText{
+    width: 60%;
+    margin: auto;
+    font-size: 1.1em;
+    line-height: 20pt;
+    padding-bottom: 20px;
+}
+.aboutText h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mySkills{
+    font-size: 1.3em;
+    width: 60%; 
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.mySkills h1{
+    padding-top: 10px;
+}
+
+.mySkills img{
+    width: 150px;
+    margin: 30px;
+    transition: 400ms;
+}
+
+
+#css{
+    width: 110px;
+}
+
+#cpp{
+    width: 140px;
+}
+
+.idkWhatToCallThis{
+    background-color: #F5F9FB;
+}
+
+.projectPage2{
+    height: 105vh;
+    background-color: #ffffff;  
+    padding-bottom: 40px;
+}
+
+.pic31{
+    padding: 2rem;
+    background-color: #585858cb;
+    width: 55vw;
+    height: calc(25vw / 1.5);
+    background-image: url(../Bilder/survey.PNG);
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-left: -5vw;
+    margin-right: 2.5vw;
+    -webkit-box-shadow: 10px 10px 38px 0px rgba(204,204,204,0.87);
+    -moz-box-shadow: 10px 10px 38px 0px rgba(204,204,204,0.87);
+    box-shadow: 10px 10px 38px 0px rgba(204,204,204,0.87);
+    transition: 500ms;
+}
+
+    .pic31:hover{
+        background-color: #09224f;
+        cursor: pointer;
+    }
+
+.pic4{
+    padding: 2rem;
+    background-color: #585858cb;
+    width: 30vw;
+    height: calc(25vw / 1.5);
+    background-image: url(../Bilder/website.PNG);
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 6vw;
+    -webkit-box-shadow: 10px 10px 38px 0px rgba(204,204,204,0.87);
+    -moz-box-shadow: 10px 10px 38px 0px rgba(204,204,204,0.87);
+    box-shadow: 10px 10px 38px 0px rgba(204,204,204,0.87);
+    transition: 500ms;
+}
+
+    .pic4:hover{
+        background-color: #09224f;
+        cursor: pointer;
+    }
+
+.container{
+    width: 75%;
+    margin: auto;
+    font-size: 1.5em;
+    height: 100%;
+}
+
+.thin{
+    font-size: 0.75em;
+    color: rgba(0, 0, 0, 0.75);
+    padding-bottom: 30px;
+}
+
+hr{
+    width: 60%;
+    margin: auto;
+}
+
+
+
+.blogpost{
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.blogpost a{
+    color: #EA7667;
+}
+
+.blogpost a:hover{
+    color: #00C6C1;
+}
+
+.blogPreview{
+    font-size: 0.75em;
+}
+
+.getTheFuckDownYouGodDamnFooter{
+    position: absolute;
+    bottom: 0;
+}
+
+
+@media only screen and (max-width: 550px){
+
+
+    .aboutText{
+        width: 85%;
+    }
+
+    .reallyBadWithGoodNames{
+        width: 100%;
+    }
+
+    .mySkills{
+        width: 85%;
+        display: inline-block;
+        padding-left: 3%;
+    }
+
+    .mySkills img{
+        width: 75px;
+        margin: 10px;
+    }
+
+    #css{
+        width: 55px;
+    }
+
+    #cpp{
+        width:70px;
+    }
+
+}
